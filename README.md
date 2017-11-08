@@ -1,5 +1,6 @@
 # awesome calculator 
 
+![](https://travis-ci.org/olyy111/js-calculator.svg?branch=master)
 
 ## introduce
 this kit resolve some awful operating problem, like
