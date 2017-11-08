@@ -3,6 +3,7 @@ var chai = require('chai')
   , should = chai.should();
 
 var cal = require('../lib/calculator')
+
 describe('accPlus', function () {
   it('should return accurate number', function () {
     expect(cal.accPlus(0.1, 0.2)).to.equal(0.3)
@@ -20,6 +21,7 @@ describe('accPlus', function () {
     expect(cal.accPlus('0.1', '0.2')).to.equal(0.3)
   })
 })
+
 
 describe('accPlus', function () {
   it('should return accurate number', function () {
