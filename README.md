@@ -1,6 +1,6 @@
 # awesome calculator 
 
-![](https://travis-ci.org/olyy111/js-calculator.svg?branch=master)
+![](https://travis-ci.org/olyy111/awesome-calculator.svg?branch=master)
 ![codecov](https://codecov.io/gh/olyy111/js-calculator/branch/master/graph/badge.svg)
 
 ## introduce
