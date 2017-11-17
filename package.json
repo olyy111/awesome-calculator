@@ -2,6 +2,18 @@
   "name": "awesome-calculator",
   "version": "1.0.2",
   "description": "this kit resolved for js Math operating accuracy problem",
+  "keywords": [
+    "calculator",
+    "js",
+    "accuracy",
+    "error",
+    "Calculation",
+    "count",
+    "compute",
+    "calculate",
+    "plus",
+    "multiplication"
+  ],
   "main": "lib/calculator.js",
   "directories": {
     "test": "test"
@@ -11,26 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/olyy111/js-calculator"
+    "url": "https://github.com/olyy111/awesome-calculator"
   },
   "author": {
     "name": "Liang Zhang",
     "email": "zl7511555@gmail.com"
   },
-  "license": "ISC",
-  "keywords": [
-    "calculator",
-    "js",
-    "accuracy",
-    "error",
-    "Calculation",
-    "count",
-    "compute",
-    "calculate"
-  ],
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
-  },
-  "license": "MIT"
+  }
 }
