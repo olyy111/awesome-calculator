@@ -1,6 +1,6 @@
 {
   "name": "awesome-calculator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this little module solved js Math operating accuracy problem",
   "keywords": [
     "calculator",
