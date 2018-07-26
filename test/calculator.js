@@ -1,42 +1,23 @@
-var chai = require('chai')
-  , expect = chai.expect
-  , should = chai.should();
-
+var test = require('tape')
 var cal = require('../lib/calculator')
 
-describe('plus', function () {
-  it('should return accurate number', function () {
-    expect(cal.plus(0.1, 0.2)).to.equal(0.3)
-  })
-  it('should return accurate number', function () {
-    expect(cal.plus(100, 0.2)).to.equal(100.2)
-  })
-  it('should return accurate number', function () {
-    expect(cal.plus(100, 200)).to.equal(300)
-  })
-  it('should return accurate number', function () {
-    expect(cal.plus(0, 200)).to.equal(200)
-  })
-  it('should only accept number or string', function () {
-    expect(cal.plus('0.1', '0.2')).to.equal(0.3)
-  })
+test('plus', function (t) {
+  t.plan(6)
+  t.equal(cal.plus(0.1, 0.2), 0.3)
+  t.equal(cal.plus(100, 0.2), 100.2)
+  t.equal(cal.plus(100, 200), 300)
+  t.equal(cal.plus(100, 200), 300)
+  t.equal(cal.plus(0, 200), 200)
+  t.equal(cal.plus('0.1', '0.2'), 0.3)
+})
+
+test('mul', function (t) {
+  t.plan(5)
+  t.equal(cal.mul(12.32, 7), 86.24)
+  t.equal(cal.mul(12.32, 0.7), 8.624)
+  t.equal(cal.mul(13, 14), 182)
+  t.equal(cal.mul(1264.985, 100), 126498.5)
+  t.equal(cal.mul('12.32', '7'), 86.24)
 })
 
 
-describe('plus', function () {
-  it('should return accurate number', function () {
-    expect(cal.mul(12.32, 7)).to.equal(86.24)
-  })
-  it('should return accurate number', function () {
-    expect(cal.mul(12.32, 0.7)).to.equal(8.624)
-  })
-  it('should return accurate number', function () {
-    expect(cal.mul(13, 14)).to.equal(182)
-  })
-  it('should return accurate number', function () {
-    expect(cal.mul(1264.985, 100)).to.equal(126498.5)
-  })
-  it('should only accept number or string', function () {
-    expect(cal.mul('12.32', '7')).to.equal(86.24)
-  })
-})

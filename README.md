@@ -11,34 +11,29 @@ this kit resolve some awful operating problem, like
 ```javascript
 npm install awesome-calculator --save
 var cal = require('awesome-calculator')
-cal.accPlus(...)
-cal.accMul(...)
 ```
 
 ## in browser
-in browser, you can use it like this:
 
 ```javascript
 <script src="lib/awesome-calculator"></script>
-cal.accPlus(...)
-cal.accMul(...)
 ```
 
 ## API
 
-1. accMul
+1. mul
 multiplied  operating, you can pass number or string
 ```
 var cal = require('awesome-calculator')
-console.log(cal.accMul('12.32', '7'))
+console.log(cal.mul('12.32', '7'))
 
 ```
 
-2. accPlus
+2. plus
 plus operating,  you can pass number or string
 ```
 var cal = require('awesome-calculator')
-console.log(cal.accPlus('0.1', '0.2'))
+console.log(cal.plus('0.1', '0.2'))
 ```
 
 ## License
