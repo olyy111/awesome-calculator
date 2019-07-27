@@ -1,20 +1,17 @@
 {
   "name": "awesome-calculator",
   "version": "2.0.0",
-  "description": "this little module solved js Math operating accuracy problem",
   "keywords": [
     "calculator",
-    "js",
-    "accuracy",
-    "error",
+    "accurate",
     "Calculation",
-    "count",
+    "add",
     "compute",
     "calculate",
     "plus",
-    "multiplication"
+    "multiply"
   ],
-  "main": "lib/calculator.js",
+  "main": "lib/calculator.min.js",
   "directories": {
     "test": "test"
   },
@@ -28,7 +25,7 @@
   },
   "author": {
     "name": "Liang Zhang",
-    "email": "zl7511555@gmail.com"
+    "email": "olyy111@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
