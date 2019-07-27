@@ -1,7 +1,6 @@
 # awesome calculator 
 
 ![](https://travis-ci.org/olyy111/awesome-calculator.svg?branch=master)
-![codecov](https://codecov.io/gh/olyy111/js-calculator/branch/master/graph/badge.svg)
 
 ## introduce
 this kit resolve some awful operating problem, like
@@ -16,7 +15,7 @@ var cal = require('awesome-calculator')
 ## in browser
 
 ```javascript
-<script src="lib/awesome-calculator"></script>
+<script src="https://unpkg.com/awesome-calculator"></script>
 ```
 
 ## API
