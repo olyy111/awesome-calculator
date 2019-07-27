@@ -19,7 +19,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape ./test/calculator.js"
+    "test": "tape ./test/calculator.js",
+    "uglify": "gulp uglify"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,10 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-rename": "^1.4.0",
     "tape": "^4.9.1"
   }
 }

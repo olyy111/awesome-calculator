@@ -6,6 +6,9 @@
 this kit resolve some awful operating problem, like
 "0.1 + 0.2" etc.
 
+## warn
+It is implemented with ES6, so you must use it in environment that support ES6 
+
 ## in node
 ```javascript
 npm install awesome-calculator --save
